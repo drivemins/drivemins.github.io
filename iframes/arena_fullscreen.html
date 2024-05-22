@@ -1,0 +1,85 @@
+<html foxified-44=""><head><base target="_blank"></head><body><button class="c-button">PLAY FULLSCREEN</button>
+    <style>
+    .c-button {
+      min-width: 100%;
+      font-family: fantasy;
+      appearance: none;
+      border: 0;
+    border-color: #fff;
+      border-radius: 5px;
+      background: #273f65;
+      color: #fff;
+      padding: 0px 46px;
+      font-size: 30px;
+      cursor: pointer;
+      box-shadow: 0 7px #999;
+    }
+    
+    .c-button:active {
+      background-color: #32548a;
+      box-shadow: 0 5px #666;
+      transform: translateY(4px);
+    }
+    
+    .c-button:focus {
+      outline: none;
+      box-shadow: 0 0 0 4px #cbd6ee;
+    }
+      
+     .c-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+    
+    </style>
+    
+    <script>
+            var urlObj = new window.URL(window.location.href);
+            var url = "https://html-classic.itch.zone/html/7053230/index.html";
+    
+            if (url) {
+                var win;
+    
+                document.querySelector('button').onclick = function() {
+                    if (win) {
+                        win.focus();
+                    } else {
+                        win = window.open();
+                        win.document.body.style.margin = '0';
+                        win.document.body.style.height = '100vh';
+                        var iframe = win.document.createElement('iframe');
+                        iframe.style.border = 'none';
+                        iframe.style.width = '100%';
+                        iframe.style.height = '100%';
+                        iframe.style.margin = '0';
+                        iframe.src = url;
+                        win.document.body.appendChild(iframe);
+                        
+    var css = 'body { background-color: #4A4A4A; }',
+                            head = win.document.head || win.document.getElementsByTagName('head')[0],
+                            style = win.document.createElement('style');
+                        
+                        head.appendChild(style);
+                        
+                        style.type = 'text/css';
+                        if (style.styleSheet){
+                          // This is required for IE8 and below.
+                          style.styleSheet.cssText = css;
+                        } else {
+                          style.appendChild(document.createTextNode(css));
+                        }
+                        var interval = setInterval(function() {
+                            if (win.closed) {
+                                clearInterval(interval);
+                                win = undefined;
+    
+                            }
+                        }, 500);
+    
+    
+                    }
+                };
+            }
+        </script></body></html>
