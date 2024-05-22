@@ -1,6 +1,6 @@
-# [Min's Unblocked Games]
+# Min's Unblocked Games
 
-Welcome to [Min's Unblocked Games], your ultimate destination for fun and engaging games that can be played at school! Our website offers a wide variety of games designed purely for entertainment, ensuring that students can enjoy their free time to the fullest.
+Welcome to Min's Unblocked Games, your ultimate destination for fun and engaging games that can be played at school! Our website offers a wide variety of games designed purely for entertainment, ensuring that students can enjoy their free time to the fullest.
 
 ## Table of Contents
 
@@ -19,7 +19,7 @@ Welcome to [Min's Unblocked Games], your ultimate destination for fun and engagi
 
 ## Game Categories
 
-At [Min's Unblocked Games], we offer games across various categories to suit every interest:
+At Min's Unblocked Games, we offer games across various categories to suit every interest:
 
 - **Puzzle Games**: Challenge yourself with brain teasers and logic puzzles.
 - **Strategy Games**: Plan and execute strategies to achieve your goals.
@@ -29,7 +29,7 @@ At [Min's Unblocked Games], we offer games across various categories to suit eve
 
 ## How to Use
 
-1. **Visit the Website**: Go to [https://drivemins.github.io].
+1. **Visit the Website**: Go to [the site](https://drivemins.github.io).
 2. **Browse Games**: Explore the different categories and select a game that interests you.
 3. **Start Playing**: Click on the game to start playing directly in your browser.
 4. **Create an Account** *(optional)*: Sign up to save your progress and compete on leaderboards.
