@@ -123,8 +123,6 @@ git push origin feature/your-feature-name
 - Ensure your code follows our style guidelines.
 - Include a clear description of your changes.
 - Reference any related issues in your pull request.
-## Code of Conduct
-We expect all contributors to adhere to our (Code of Conduct)[#Code of Conduct]. Please read it to understand the standards for participation.
 
 ## Getting Help
 If you need help with any aspect of contributing, feel free to ask:
