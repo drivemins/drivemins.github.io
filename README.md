@@ -58,7 +58,6 @@ We’re thrilled that you’re interested in contributing to Min's Unblocked Gam
 - [Suggesting New Games](#suggesting-new-games)
 - [Improving the Website](#improving-the-website)
 - [Submitting a Pull Request](#submitting-a-pull-request)
-- [Code of Conduct](#code-of-conduct)
 - [Getting Help](#getting-help)
 
 ## How to Contribute
