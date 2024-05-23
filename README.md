@@ -13,7 +13,6 @@ Welcome to Min's Unblocked Games, your ultimate destination for fun and engaging
 ## Features
 
 - **Wide Selection of Games**: Explore a diverse range of games including puzzles, strategy games, and arcade classics.
-- **Safe for School**: All games are vetted to ensure they are appropriate for school environments.
 - **No Downloads Required**: Play directly from your browser without needing to install any software.
 - **Regular Updates**: Our library is constantly updated with new games and features.
 
@@ -32,7 +31,6 @@ At Min's Unblocked Games, we offer games across various categories to suit every
 1. **Visit the Website**: Go to [the site](https://drivemins.github.io).
 2. **Browse Games**: Explore the different categories and select a game that interests you.
 3. **Start Playing**: Click on the game to start playing directly in your browser.
-4. **Create an Account** *(optional)*: Sign up to save your progress and compete on leaderboards.
 
 ## Contributing
 
