@@ -36,50 +36,50 @@
     </style>
     
     <script>
-            var urlObj = new window.URL(window.location.href);
-            var url = "https://html-classic.itch.zone/html/7053230/index.html";
-    
-            if (url) {
-                var win;
-    
-                document.querySelector('button').onclick = function() {
-                    if (win) {
-                        win.focus();
-                    } else {
-                        win = window.open();
-                        win.document.body.style.margin = '0';
-                        win.document.body.style.height = '100vh';
-                        var iframe = win.document.createElement('iframe');
-                        iframe.style.border = 'none';
-                        iframe.style.width = '100%';
-                        iframe.style.height = '100%';
-                        iframe.style.margin = '0';
-                        iframe.src = url;
-                        win.document.body.appendChild(iframe);
-                        
-    var css = 'body { background-color: #4A4A4A; }',
-                            head = win.document.head || win.document.getElementsByTagName('head')[0],
-                            style = win.document.createElement('style');
-                        
-                        head.appendChild(style);
-                        
-                        style.type = 'text/css';
-                        if (style.styleSheet){
-                          // This is required for IE8 and below.
-                          style.styleSheet.cssText = css;
-                        } else {
-                          style.appendChild(document.createTextNode(css));
-                        }
-                        var interval = setInterval(function() {
-                            if (win.closed) {
-                                clearInterval(interval);
-                                win = undefined;
-    
-                            }
-                        }, 500);
-    
-    
-                    }
-                };
+      var urlObj = new window.URL(window.location.href);
+      var url = "https://html-classic.itch.zone/html/7053230/index.html";
+
+      if (url) {
+        var win;
+
+        document.querySelector('button').onclick = function() {
+          if (win) {
+              win.focus();
+          } else {
+            win = window.open();
+            win.document.body.style.margin = '0';
+            win.document.body.style.height = '100vh';
+            var iframe = win.document.createElement('iframe');
+            iframe.style.border = 'none';
+            iframe.style.width = '100%';
+            iframe.style.height = '100%';
+            iframe.style.margin = '0';
+            iframe.src = url;
+            win.document.body.appendChild(iframe);
+            
+            var css = 'body { background-color: #4A4A4A; }',
+            head = win.document.head || win.document.getElementsByTagName('head')[0],
+            style = win.document.createElement('style');
+            
+            head.appendChild(style);
+            
+            style.type = 'text/css';
+            if (style.styleSheet){
+              // This is required for IE8 and below.
+              style.styleSheet.cssText = css;
+            } else {
+              style.appendChild(document.createTextNode(css));
             }
-        </script></body></html>
+            var interval = setInterval(function() {
+              if (win.closed) {
+                clearInterval(interval);
+                win = undefined;
+
+              }
+            }, 500);
+          }
+        };
+      }
+    </script>
+  </body>
+</html>
